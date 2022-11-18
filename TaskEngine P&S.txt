@@ -1,0 +1,24 @@
+Task Engine prblm and solution
+
+
+Pb-1
+1.Create a generated xml file in TaskEngine module folder 
+2.Configure the generated xml file to the conf-file location
+Eg:
+<?xml version="1.0"?>
+<!-- $Id$ -->
+<conf-files>
+ 	<ConfFile url="service.xml" />
+	<ConfFile url="bean.xml" />
+	<ConfFile url="threadpools.xml" />
+	<ConfFile url="log-archive-task.xml" />
+	<ConfFile url="backup-schedule.xml"/>
+      <ConfFile url="generated.xml"/>
+</conf-files>
+
+Pb-2
+1.Once created the task execution method for eg, SampleTask(). convert the file into jar and 
+paste the jar file to the MickeyLite Home-->Lib folder 
+
+
+
